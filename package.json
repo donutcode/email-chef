@@ -1,0 +1,27 @@
+{
+  "name":             "email-chef",
+  "description":      "Email Chef",
+  "keywords":         ["email", "html", "compiler", "inliner"],
+  "author":           "Naomi Kyoto",
+  "version":          "0.0.1",
+  "licenses":         [{
+    "type":           "MIT",
+    "url":            "http://github.com/donutcode/email-chef/raw/master/LICENSE"
+  }],                 
+  "engines":          {
+    "node":           ">=0.2.5",
+    "coffee-script":  ">=1.1.1"
+  },
+  "directories" :     {
+    "lib" :           "./lib"
+  },
+  "main" :            "./lib/email-chef",
+  "bin":              {
+    "chef":           "./bin/chef"
+  },
+  "homepage":         "http://github.com/donutcode/email-chef",
+  "repository":       {
+    "type":           "git",
+    "url":            "git://github.com/donutcode/email-chef.git"
+  }
+}
